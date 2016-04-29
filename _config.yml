@@ -11,13 +11,21 @@ collections:
     output: true
 defaults:
 - scope:
+<<<<<<< HEAD
     path: '/posts/'
+=======
+    path: "/_posts/"
+>>>>>>> origin/master
     type: posts
   values:
     layout: post
     permalink: "/posts/:title/"
 - scope:
+<<<<<<< HEAD
     path: '/pages/'
+=======
+    path: "/_pages/"
+>>>>>>> origin/master
     type: pages
   values:
     layout: page
