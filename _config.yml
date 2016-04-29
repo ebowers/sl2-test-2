@@ -11,13 +11,13 @@ collections:
     output: true
 defaults:
 - scope:
-    path: '/_posts/'
+    path: "/_posts/"
     type: posts
   values:
     layout: post
     permalink: "/posts/:title/"
 - scope:
-    path: '/_pages/'
+    path: "/_pages/"
     type: pages
   values:
     layout: page
